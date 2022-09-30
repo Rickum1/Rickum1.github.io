@@ -1,0 +1,110 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.Back{
+    background-color: #B71C1C;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+}
+#linkh{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-r{
+    float: right;
+    margin-right: 50px;
+}
+
+body{
+    background-color:#ff3936;
+}
+
+hr{
+    border-style: outset;
+    border-width: 5px;
+    color: black;
+}
+
+.cardla{
+    width: 300px;
+    height: 350px;
+    border-radius: 15%;
+    float: left;
+    background-color: #404040;
+    margin: 12.5% 6.5% 0% 7.5%;
+    padding: auto;
+    text-align: center;
+    color: #51081B;
+    font-size: 16px;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
+}
+.cardla:hover{
+    box-shadow: 6px 8px rgba(86, 85, 85, 0.586)
+}
+
+
+.cardmal{
+    width: 300px;
+    height: 350px;
+    border-radius: 15%;
+    float:left;
+    background-color: #e8e8e8;
+    margin: 12.5% 6.5% 0% 5%;
+    padding: auto;
+    text-align: center;
+    color: #B3860F;
+    font-size: 16px;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
+}
+.cardmal:hover{ 
+    box-shadow: 6px 8px rgba(36, 244, 202, 0.493);
+}
+.cardmt{
+    width: 300px;
+    height: 350px;
+    border-radius: 15%;
+    background-color: #D61D2B;
+    float:left;
+    margin: 12.5% 5.5% 0% .5%;
+    padding:auto;
+    text-align: center;
+    color: #191919;
+    font-size: 16px;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
+}
+.cardmt:hover{
+    box-shadow: 6px 8px rgba(227, 0, 0, 0.53);
+}
+.cardla, .cardmal, .cardmt{
+    flex-flow: row wrap;    
+}
+
+.LA{
+  margin: center;
+  max-width: 80%;
+  border-radius: 50%;
+}
+
+.MTM{
+    margin: center;
+    max-width: 70%;
+    max-height: 75%;
+    border-radius: 50%;
+}
+
+.ELMQ{
+    margin: center;
+    max-width: 80%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 400px) {
+    .cardla, .cardmal, .cardmt{
+        width: 75%;
+        height: 75%;
+    }
+       
+}
+
